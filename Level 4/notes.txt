@@ -1,0 +1,7 @@
+2.4.1:
+operator==: The if is redundant; simply return the boolean expression itself
+operator *=: No need for a temp object here; should scale m_x and m_y directly
+2.4.4: operator<< should demonstrate the benefit of making it a friend -- that it can now access the private members of Point
+2.5.3:
+All the accessors should validate the upper and lower bounds of index
+Should not be subtracting 1 from index. Proper bounds for Array is 0 to size-1

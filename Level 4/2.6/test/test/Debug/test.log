@@ -1,0 +1,30 @@
+﻿Build started 4/21/2015 6:55:05 PM.
+     1>Project "C:\Users\Inna\Documents\C++ Certification\Level 4\2.6\test\test\test.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Inna\Documents\C++ Certification\Level 4\2.6\Exercise 1" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\Exercise 1\Exercise 1.cpp" "..\..\Exercise 1\array.cpp" "..\..\Exercise 1\circle.cpp" "..\..\Exercise 1\line.cpp" "..\..\Exercise 1\point.cpp"
+         point.cpp
+     1>c:\users\inna\documents\c++ certification\level 4\2.6\exercise 1\point.cpp(104): warning C4172: returning address of local variable or temporary
+         line.cpp
+         circle.cpp
+     1>c:\users\inna\documents\c++ certification\level 4\2.6\exercise 1\circle.cpp(15): error C2065: 'cent' : undeclared identifier
+     1>c:\users\inna\documents\c++ certification\level 4\2.6\exercise 1\circle.cpp(15): error C2228: left of '.X' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\inna\documents\c++ certification\level 4\2.6\exercise 1\circle.cpp(16): error C2065: 'cent' : undeclared identifier
+     1>c:\users\inna\documents\c++ certification\level 4\2.6\exercise 1\circle.cpp(16): error C2228: left of '.Y' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\inna\documents\c++ certification\level 4\2.6\exercise 1\circle.cpp(16): error C2065: 'rad' : undeclared identifier
+     1>c:\users\inna\documents\c++ certification\level 4\2.6\exercise 1\circle.cpp(17): error C3861: 'area': identifier not found
+     1>c:\users\inna\documents\c++ certification\level 4\2.6\exercise 1\circle.cpp(17): error C3861: 'circum': identifier not found
+         Generating Code...
+         Compiling...
+         Exercise 1.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         array.cpp
+     1>Done Building Project "C:\Users\Inna\Documents\C++ Certification\Level 4\2.6\test\test\test.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.86
